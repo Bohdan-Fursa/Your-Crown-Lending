@@ -1,0 +1,43 @@
+{
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "html": "html",
+        "javascript": "javascript",
+        "javascriptreact": "javascript",
+        "typescript": "typescript",
+        "typescriptreact": "typescript"
+    },
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.html": "html",
+        "*.css": "css",
+        "*.js": "javascript"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "html"
+    },
+    "css.validate": false,
+    "editor.suggest.preview": true,
+    "tailwindCSS.experimental.classRegex": [
+        [
+            "class\\s*[:=]\\s*['\"`]([^'\"]*)['\"`]",
+            1
+        ],
+        [
+            "className\\s*=\\s*['\"`]([^'\"]*)['\"`]",
+            1
+        ],
+        [
+            "tw\\`([^`]*)\\`",
+            1
+        ]
+    ],
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
+}
